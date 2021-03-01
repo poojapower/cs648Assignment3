@@ -1,0 +1,35 @@
+{
+  "name": "assignmemnt3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "watch": "babel src --presets react --out-dir public --watch --verbose",
+    "compile": "babel src --presets react --out-dir public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pooja Pawar",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.10.1",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "mongodb": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poojapower/cs648Assignment2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/poojapower/cs648Assignment2/issues"
+  },
+  "homepage": "https://github.com/poojapower/cs648Assignment2#readme",
+  "description": ""
+}
